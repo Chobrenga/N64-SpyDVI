@@ -1,4 +1,4 @@
-# N64-SpyDVI
+# Meet the N64 SpyDVI
 N64 DVI mod board using RP2040 and some DVI bit banging firmware from the [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64) project. Should be able to be installed as cut or no cut.
 
 ![](./Images/Board3D.png)
