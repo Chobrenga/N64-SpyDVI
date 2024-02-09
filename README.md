@@ -9,6 +9,8 @@ The audio circuit is optional.
 
 The board only needs a 5V supply, there is a 3.3V regulator onboard to generate logic level. The RP2040 itself generates the 1.1V it needs for operaton.
 
+Custom 3D printed bracket, braces, and facia are planned, but not yet available. The ones from Peter Bartmann's [n64adv2_pcb](https://github.com/borti4938/n64adv2_pcb) should work just fine.
+
 BEFORE YOU ORDER
 This board has not been fabricated and tested as of yet.
 
@@ -21,3 +23,9 @@ Wren6991 for sparking Konrad's project, and providing a functional DVI board sch
 
 ![](./Images/BRDFront.png)
 ![](./Images/BRDBack.png)
+
+# Fitment
+
+![](./Images/FusionTopView.png)
+![](./Images/FusionBackView.png)
+![](./Images/FusionFrontSectionView.png)
