@@ -1,5 +1,5 @@
 # N64-SpyDVI
-N64 DVI mod board using RP2040 and some DVI bit banging firmware from the PicoDVI project. Should be able to be installed as cut or no cut.
+N64 DVI mod board using RP2040 and some DVI bit banging firmware from the [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64) project. Should be able to be installed as cut or no cut.
 
 ![](./Images/Board3D.png)
 
@@ -16,3 +16,8 @@ This board has not been fabricated and tested as of yet.
 Konrad Beckmann for initial inspiration and some initial firmware. Repo: [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64)
 
 Wren6991 for sparking Konrad's project, and providing a functional DVI board schematic which my design is based on. [PicoDVI](https://github.com/Wren6991/PicoDVI)
+
+# Board Layout
+
+![](./Images/BRDFront.png)
+![](./Images/BRDBack.png)
