@@ -1,6 +1,6 @@
 # N64-SpyDVI
 N64 DVI mod board using RP2040 and some DVI bit banging firmware from the PicoDVI project. Should be able to be installed as cut or no cut.
-![](./Images/Board 3D.png)
+![](./Images/Board3D.png)
 
 A QSB ribbon is planned for this project, but you can totally just solder the wires in accordance with Beckmann's diagram. I even left headers available for such a job.
 
