@@ -18,6 +18,10 @@ This board has not been fabricated and tested as of yet.
 
 R8 is intentionally missing on the BOM. It is not required.
 
+This is intended for fabrication with JLC04161H-7628(Standard). Enable impedance control.
+
+Hookup schematic for headers can be found on Konrad's [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64). The headers are labeled.
+
 # Credit Given
 
 Konrad Beckmann for initial inspiration and some initial firmware. Repo: [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64)
