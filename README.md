@@ -22,6 +22,8 @@ Wren6991 for sparking Konrad's project, and providing a functional DVI board sch
 # Board Layout
 
 ![](./Images/BRDFront.png)
+![](./Images/BRDGround.png)
+![](./Images/BRDPower.png)
 ![](./Images/BRDBack.png)
 
 # Fitment
