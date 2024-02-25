@@ -6,11 +6,9 @@ N64 DVI mod board using RP2040 and some DVI bit banging firmware from the [PicoD
 
 ![](./Images/Board3DNC.png)
 
-A QSB ribbon is planned for this project, but you can totally just solder the wires in accordance with the provided diagrams. I even left headers available for such a job. N64 Header is a 20 pin 1.27mm pitch connection, of which can be bought on Amazon.
+Currently no QSB, use N64 Header. N64 Header is a 20 pin 1.27mm pitch connection, of which can be bought on Amazon.
 
-The audio circuit is optional. 
-
-The board only needs a 5V supply, there is a 3.3V regulator onboard to generate logic level. The RP2040 itself generates the 1.1V it needs for operaton.
+The board only needs a 5V supply, there is a 3.3V regulator onboard to generate logic level. The RP2040 itself generates the 1.1V it needs for operaton. The MOSFET Q1 cuts off the 5V from the console when the usb is inserted, so it should be able to be programmed while installed.
 
 Custom 3D printed bracket, braces, and facia are planned, but not yet available. The ones from Peter Bartmann's [n64adv2_pcb](https://github.com/borti4938/n64adv2_pcb) should work just fine.
 
@@ -43,6 +41,8 @@ Wren6991 for sparking Konrad's project, and providing a functional DVI board sch
 
 # Wiring
 
+Note: Controller support currently not implimented.
+
 ![](./Images/AVSIGNALS.png)
 ![](./Images/CONSIGNAL.png)
 
@@ -58,3 +58,10 @@ Wren6991 for sparking Konrad's project, and providing a functional DVI board sch
 ![](./Images/FusionTopView.png)
 ![](./Images/FusionBackView.png)
 ![](./Images/FusionFrontSectionView.png)
+
+#TODO
+- Add QSB Ribbon (In Progress)
+- Supply modified firmware (Untested)
+- Design 3D Printed No-Cut Kit (Not Started)
+- Design 3D Printed Cut Kit (Not Started)
+- Add settings menu to firmware (Not Started)
