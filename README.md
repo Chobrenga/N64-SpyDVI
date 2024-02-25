@@ -25,8 +25,6 @@ For V2.0 Select 0.15mm via option, 4-Wire Kelvin Test is mandatory. (Not recomme
 For V2.1 Select 0.25mm via option, 4-Wire Kelvin Test is still mandatory.
 For V2.2 and beyond vias are 0.3mm minimum, so no special requirements regarding testing. This was done to reduce manufacturing costs.
 
-Hookup schematic for headers can be found on Konrad's [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64). The headers are labeled.
-
 This is not and will not be compatible with the Hispeedido flex cable, even though they have the same number of pins.
 
 # Credit Given
