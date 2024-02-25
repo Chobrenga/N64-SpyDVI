@@ -4,6 +4,8 @@ N64 DVI mod board using RP2040 and some DVI bit banging firmware from the [PicoD
 
 ![](./Images/Board3D.png)
 
+![](./Images/Board3DNC.png)
+
 A QSB ribbon is planned for this project, but you can totally just solder the wires in accordance with Beckmann's diagram. I even left headers available for such a job.
 
 The audio circuit is optional. 
