@@ -41,7 +41,7 @@ Wren6991 for sparking Konrad's project, and providing a functional DVI board sch
 
 # Wiring
 
-Note: Controller support currently not implimented.
+Note: Controller support currently not implemented.
 
 ![](./Images/AVSIGNALS.png)
 ![](./Images/CONSIGNAL.png)
