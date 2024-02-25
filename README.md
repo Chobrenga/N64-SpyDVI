@@ -6,7 +6,7 @@ N64 DVI mod board using RP2040 and some DVI bit banging firmware from the [PicoD
 
 ![](./Images/Board3DNC.png)
 
-A QSB ribbon is planned for this project, but you can totally just solder the wires in accordance with Beckmann's diagram. I even left headers available for such a job.
+A QSB ribbon is planned for this project, but you can totally just solder the wires in accordance with the provided diagrams. I even left headers available for such a job. N64 Header is a 20 pin 1.27mm pitch connection, of which can be bought on Amazon.
 
 The audio circuit is optional. 
 
@@ -37,10 +37,14 @@ Konrad Beckmann for initial inspiration and some initial firmware. Repo: [PicoDV
 
 Wren6991 for sparking Konrad's project, and providing a functional DVI board schematic which my design is based on. [PicoDVI](https://github.com/Wren6991/PicoDVI)
 
-# Schematic
+# Schematics
 
 ![](./Images/Schematic.png)
 
+# Wiring
+
+![](./Images/AVSIGNALS.png)
+![](./Images/CONSIGNAL.png)
 
 # Board Layout
 
