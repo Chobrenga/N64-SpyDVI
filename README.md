@@ -14,21 +14,31 @@ Custom 3D printed bracket, braces, and facia are planned, but not yet available.
 
 # Fabrication Notes
 
-This board has not been fabricated and tested as of yet.
+This board has not been fabricated and tested as of yet. If you do order, I always recommended the latest revision.
 
 R8 is intentionally missing on the BOM. It is not required.
+RESET is missing in the BOM, this is because it's only a pair of pads. This is not an issue.
 
 This is intended for fabrication with JLC04161H-7628(Standard). Enable impedance control.
 
-Select 0.15mm via option, 4-wire test is mandatory.
+For V2.0 Select 0.15mm via option, 4-Wire Kelvin Test is mandatory. (Not recommended, use V2.1)
+For V2.1 Select 0.25mm via option, 4-Wire Kelvin Test is still mandatory.
+For V2.2 and beyond vias are 0.3mm minimum, so no special requirements regarding testing. This was done to reduce manufacturing costs.
 
 Hookup schematic for headers can be found on Konrad's [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64). The headers are labeled.
+
+This is not and will not be compatible with the Hispeedido flex cable, even though they have the same number of pins.
 
 # Credit Given
 
 Konrad Beckmann for initial inspiration and some initial firmware. Repo: [PicoDVI-N64](https://github.com/kbeckmann/PicoDVI-N64)
 
 Wren6991 for sparking Konrad's project, and providing a functional DVI board schematic which my design is based on. [PicoDVI](https://github.com/Wren6991/PicoDVI)
+
+# Schematic
+
+![](./Images/Schematic.png)
+
 
 # Board Layout
 
