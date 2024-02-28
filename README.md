@@ -21,9 +21,11 @@ RESET is missing in the BOM, this is because it's only a pair of pads. This is n
 
 This is intended for fabrication with JLC04161H-7628(Standard). Enable impedance control.
 
-For V2.0 Select 0.15mm via option, 4-Wire Kelvin Test is mandatory. (Not recommended, use V2.1)
-For V2.1 Select 0.25mm via option, 4-Wire Kelvin Test is still mandatory.
-For V2.2 and beyond vias are 0.3mm minimum, so no special requirements regarding testing. This was done to reduce manufacturing costs.
+*For V2.0 Select 0.15mm via option, 4-Wire Kelvin Test is mandatory. (Not recommended, use newer revision)
+
+*For V2.1 Select 0.25mm via option, 4-Wire Kelvin Test is still mandatory.
+
+*For V2.2 and beyond vias are 0.3mm minimum, so no special requirements regarding testing. This was done to reduce manufacturing costs.
 
 This is not and will not be compatible with the Hispeedido flex cable, even though they have the same number of pins.
 
