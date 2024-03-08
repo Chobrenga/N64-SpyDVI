@@ -1,0 +1,13 @@
+{
+    "other":"settings",
+    "cmake.configureArgs": [
+        "-DDEFAULT_SERIAL_CONFIG=spydvi_cfg"
+    ],
+    "cmake.configureSettings": {
+        "PICO_SDK_PATH": "~/pico/pico-sdk"
+    },
+    "files.associations": {
+        "multicore.h": "c",
+        "stdlib.h": "c"
+    }
+}
