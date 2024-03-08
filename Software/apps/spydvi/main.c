@@ -69,8 +69,9 @@ int main() {
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
-    // Send out a string, with CR/LF conversions
+	// Send mesage on UART to indicate it is working
     uart_puts(UART_ID, " Hello, UART!\n");
+	uart_puts(UART_ID, "There could be a spy in this very room!");
 	
 	vreg_set_voltage(VREG_VSEL);
 	sleep_ms(10);
@@ -123,5 +124,3 @@ int main() {
 		++frame_ctr;
 	}
 }
-
-// THIS ONE IS YOURS DOOF
