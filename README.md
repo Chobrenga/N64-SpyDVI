@@ -6,7 +6,13 @@ N64 DVI mod board using RP2040 and some DVI bit banging firmware from the [PicoD
 
 ![](./Images/Board3DNC.png)
 
-Currently no QSB, use N64 Header. N64 Header is a 20 pin 1.27mm pitch connection, of which can be bought on Amazon.
+![](./Images/Ribbon3DL.png)
+
+![](./Images/Ribbon3DR.png)
+
+~~Currently no QSB, use N64 Header. N64 Header is a 20 pin 1.27mm pitch connection, of which can be bought on Amazon.~~
+
+Please use the QSB moving forward. The header had too many signaling issues. My first batch of the QSB is being ordered soon for testing. :)
 
 The board only needs a 5V supply, there is a 3.3V regulator onboard to generate logic level. The RP2040 itself generates the 1.1V it needs for operaton. The MOSFET Q1 cuts off the 5V from the console when the usb is inserted, so it should be able to be programmed while installed.
 
@@ -14,7 +20,9 @@ Custom 3D printed bracket, braces, and facia are planned, but not yet available.
 
 # Fabrication Notes
 
-This board has not been fabricated and tested as of yet. I have placed an order and will be testing very soon. If you do order, I always recommended the latest revision.
+~~This board has not been fabricated and tested as of yet. I have placed an order and will be testing very soon. If you do order, I always recommended the latest revision.~~
+
+The board worked well enough that I will continue the project. With no audio lines connected, I got a clean video signal. Currently working on the QSB.
 
 **R8** is intentionally missing on the BOM. It is not required. May be removed from schematic in final design.
 **RESET** is missing in the BOM, this is because it's only a pair of pads. This is not an issue.
@@ -25,7 +33,7 @@ This is intended for fabrication with **JLC04161H-7628(Standard)**. Enable **imp
 
 Leaving the debug header unpopulated would save some cost for the final production run.
 
-Removing the N64 pin header and stuffing resistors would reduce cost, once the QSB is available.
+~~Removing the N64 pin header and stuffing resistors would reduce cost, once the QSB is available.~~
 
 Potential to shrink the board layout and panelize the board, could significantly reduce manufacturing costs.
 
@@ -34,6 +42,8 @@ Potential to shrink the board layout and panelize the board, could significantly
 * For V2.0 Select 0.15mm via option, 4-Wire Kelvin Test is mandatory. (Not recommended, use newer revision)
 * For V2.1 Select 0.25mm via option, 4-Wire Kelvin Test is still mandatory.
 * For V2.2 and beyond vias are 0.3mm minimum, so no special requirements regarding testing. This was done to reduce manufacturing costs.
+* For V2.3 things were only slightly moved around. Was not worth going to the trouble to update the GitHub.
+* For V2.4 the N64 Pin Header was removed along witht he stuffing resistors. Header was causing signal reflection issues.
 
 This is not and will not be compatible with the Hispeedido flex cable, even though they have the same number of pins.
 
@@ -43,13 +53,20 @@ Konrad Beckmann for initial inspiration and some initial firmware. Repo: [PicoDV
 
 Wren6991 for sparking Konrad's project, and providing a functional DVI board schematic which my design is based on. [PicoDVI](https://github.com/Wren6991/PicoDVI)
 
+The various and wonderful people in Konrad Beckmann's Discord server have also been a massive help! Thank you all!
+
 # Schematics
 
 ![](./Images/Schematic.png)
 
+## QSB Ribbon
+
+![](./Images/RibbonSchematic.png)
+
 # Wiring
 
 Note: Controller support currently not implemented.
+Note: The QSB handles all AV Signals. Power, GND, and CON still need wires.
 
 ![](./Images/AVSIGNALS.png)
 ![](./Images/CONSIGNAL.png)
@@ -61,6 +78,13 @@ Note: Controller support currently not implemented.
 ![](./Images/BRDPower.png)
 ![](./Images/BRDBack.png)
 
+## Ribbon layout
+
+![](./Images/RibbonFrontL.png)
+![](./Images/RibbonFrontR.png)
+![](./Images/RibbonBackL.png)
+![](./Images/RibbonBackR.png)
+
 # Fitment
 
 ![](./Images/FusionTopView.png)
@@ -70,11 +94,14 @@ Note: Controller support currently not implemented.
 # Development Tasks
 - [X] Layout Board
 - [X] Order first production run
-- [ ] Modify Konrad's Firmware for SpyDVI
-- [ ] Test first production run
+- [X] Modify Konrad's Firmware for SpyDVI
+- [X] Test first production run
+- [X] Add control monitoring
+- [X] Design QSB Ribbon V1
+- [ ] Order QSB Ribbon V1
+- [ ] Take pictures of QSB install for Readme
+- [ ] Find appropriate scaling methods
 - [ ] Side-By-Side Test VS Multi Out
-- [ ] Add control monitoring
-- [ ] Add settings menu
+- [ ] Add settings menu and Hotkeys
 - [ ] Design 3D Printed No-Cut Kit
 - [ ] Design 3D Printed Cut Kit
-- [ ] Design QSB Ribbon
