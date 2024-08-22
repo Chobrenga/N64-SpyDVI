@@ -97,6 +97,10 @@ Note: The QSB handles all AV Signals. Power, GND, and CON still need wires.
 ![](./Images/FusionBackView.png)
 ![](./Images/FusionFrontSectionView.png)
 
+# Software Notes
+
+The project started with EasyEDA Standard edition, but has migrated to EasyEDA Pro for the Flex Cable support.
+
 # Development Tasks
 - [X] Layout Board
 - [X] Order first production run
