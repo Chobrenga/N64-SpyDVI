@@ -39,11 +39,17 @@ Potential to shrink the board layout and panelize the board, could significantly
 
 ### Revision Notes
 
+#### Main Board
 * For V2.0 Select 0.15mm via option, 4-Wire Kelvin Test is mandatory. (Not recommended, use newer revision)
 * For V2.1 Select 0.25mm via option, 4-Wire Kelvin Test is still mandatory.
 * For V2.2 and beyond vias are 0.3mm minimum, so no special requirements regarding testing. This was done to reduce manufacturing costs.
 * For V2.3 things were only slightly moved around. Was not worth going to the trouble to update the GitHub.
 * For V2.4 the N64 Pin Header was removed along witht he stuffing resistors. Header was causing signal reflection issues.
+
+#### Ribbon
+* V1.0C is a compatibility version for main boards V2.0 and V2.1
+* V1.0 is for V2.2 and newer. It has a few errors.
+* V1.1 removes solder mask from the FPC connection area, along with fixing a few small issues.
 
 This is not and will not be compatible with the Hispeedido flex cable, even though they have the same number of pins.
 
