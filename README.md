@@ -108,7 +108,8 @@ The project started with EasyEDA Standard edition, but has migrated to EasyEDA P
 - [X] Test first production run
 - [X] Add control monitoring
 - [X] Design QSB Ribbon V1
-- [ ] Order QSB Ribbon V1
+- [X] Order QSB Ribbon V1
+- [ ] Test QSB with an without V2.2 stuffing resistors
 - [ ] Take pictures of QSB install for Readme
 - [ ] Find appropriate scaling methods
 - [ ] Side-By-Side Test VS Multi Out
