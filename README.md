@@ -77,6 +77,11 @@ Note: The QSB handles all AV Signals. Power, GND, and CON still need wires.
 ![](./Images/AVSIGNALS.png)
 ![](./Images/CONSIGNAL.png)
 
+Below is an example of an installed kit.
+
+![](./Images/FULLQSB.JPG)
+![](./Images/QSBCLOSEUP.JPG)
+
 # Board Layout
 
 ![](./Images/BRDFront.png)
@@ -92,6 +97,13 @@ Note: The QSB handles all AV Signals. Power, GND, and CON still need wires.
 ![](./Images/RibbonBackR.png)
 
 # Fitment
+
+![](./Images/BRACKET.JPG)
+![](./Images/NCKITNOMB.JPG)
+![](./Images/NCKITNOMBREAR.JPG)
+![](./Images/TOPDOWN.JPG)
+![](./Images/ASSEMBLEDFITMENT.JPG)
+
 
 ![](./Images/FusionTopView.png)
 ![](./Images/FusionBackView.png)
@@ -110,9 +122,9 @@ The project started with EasyEDA Standard edition, but has migrated to EasyEDA P
 - [X] Design QSB Ribbon V1
 - [X] Order QSB Ribbon V1
 - [ ] Test QSB with an without V2.2 stuffing resistors
-- [ ] Take pictures of QSB install for Readme
+- [X] Take pictures of QSB install for Readme
 - [ ] Find appropriate scaling methods
 - [ ] Side-By-Side Test VS Multi Out
 - [ ] Add settings menu and Hotkeys
-- [ ] Design 3D Printed No-Cut Kit
+- [X] Design 3D Printed No-Cut Kit
 - [ ] Design 3D Printed Cut Kit
