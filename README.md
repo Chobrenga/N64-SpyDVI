@@ -125,18 +125,13 @@ The project started with EasyEDA Standard edition, but has migrated to EasyEDA P
 - [X] Add control monitoring
 - [X] Design QSB Ribbon V1
 - [X] Order QSB Ribbon V1
-<<<<<<< HEAD
-- [ ] Test QSB with an without V2.2 stuffing resistors
 - [X] Take pictures of QSB install for Readme
+- [X] ~Test QSB with an without V2.2 stuffing resistors~ No need, works with them.
+- [X] Design Compatibility version of QSB Ribbon for older boards
+- [X] Design 3D Printed No-Cut Kit
+- [ ] Convert project to RP2350
 - [ ] Find appropriate scaling methods
 - [ ] Side-By-Side Test VS Multi Out
 - [ ] Add settings menu and Hotkeys
-=======
-- [X] ~Test QSB with an without V2.2 stuffing resistors~ No need, works with them.
-- [ ] Take pictures of QSB install for Readme
-- [ ] Find appropriate scaling methods
-- [ ] Side-By-Side Test VS Multi Out
-- [ ] ~Add settings menu and Hotkeys~ 2040 is too slow
->>>>>>> 232039455c2198aa345c6731ed19daa6a7e17e7d
-- [X] Design 3D Printed No-Cut Kit
+- [ ] Design and order QSB with no components to see if they are necesarry.
 - [ ] Design 3D Printed Cut Kit
