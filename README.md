@@ -18,6 +18,10 @@ The board only needs a 5V supply, there is a 3.3V regulator onboard to generate 
 
 Custom 3D printed bracket, braces, and facia are planned, but not yet available. The ones from Peter Bartmann's [n64adv2_pcb](https://github.com/borti4938/n64adv2_pcb) should work just fine.
 
+# State of the Project
+
+After receiving the flex cable and seeing the system working with audio finally, I began working on the software side of things. It very quickly became apparent to me that the 2040 is not a great choice for this kind of application, as the image distorts whenever I attempt to read controller inputs. This appears to be a performance issue. There may not be another update after this one.
+
 # Fabrication Notes
 
 ~~This board has not been fabricated and tested as of yet. I have placed an order and will be testing very soon. If you do order, I always recommended the latest revision.~~
@@ -121,10 +125,18 @@ The project started with EasyEDA Standard edition, but has migrated to EasyEDA P
 - [X] Add control monitoring
 - [X] Design QSB Ribbon V1
 - [X] Order QSB Ribbon V1
+<<<<<<< HEAD
 - [ ] Test QSB with an without V2.2 stuffing resistors
 - [X] Take pictures of QSB install for Readme
 - [ ] Find appropriate scaling methods
 - [ ] Side-By-Side Test VS Multi Out
 - [ ] Add settings menu and Hotkeys
+=======
+- [X] ~Test QSB with an without V2.2 stuffing resistors~ No need, works with them.
+- [ ] Take pictures of QSB install for Readme
+- [ ] Find appropriate scaling methods
+- [ ] Side-By-Side Test VS Multi Out
+- [ ] ~Add settings menu and Hotkeys~ 2040 is too slow
+>>>>>>> 232039455c2198aa345c6731ed19daa6a7e17e7d
 - [X] Design 3D Printed No-Cut Kit
 - [ ] Design 3D Printed Cut Kit
